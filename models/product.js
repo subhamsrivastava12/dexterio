@@ -1,0 +1,110 @@
+const mongoose = require('mongoose');
+
+const productSchema = mongoose.Schema({
+  primaryCategory:
+  {
+      categoryName:{
+        type:String,
+        default:''
+      },
+      categoryId:{
+        type:String,
+        unique:true
+      }
+  },
+  title:String,
+  productUrl:String,
+  images:[{
+    _id:false,
+    imageUrl:{type:String,default:''},
+    imageAltText:{type:String,default:''},
+    id:{
+      type:String,
+      unique:true
+    }
+  }],
+  vendorId:{
+    _id:false,
+    id:{
+      type:String,
+      unique:true
+    },
+    name:String,
+    categories:[{
+      categoryId:{
+        type:String,
+        unique:true
+      },
+      categoryName:String
+    }],
+    email:String,
+    images:[{
+      imageUrl:{type:String,default:''},
+      imageAltText:{type:String,default:''},
+      id:{
+        type:String,
+        unique:true
+      }
+    }]
+  },
+  variants:[{
+    _id:false,
+    id:{
+      type:String,
+      unique:true
+    },
+    category:{
+      categoryId:{
+        type:String,
+        unique:true
+      },
+      categoryName:String
+    },
+    vendorId:String,
+    vendorName:String,
+    color:{
+    _id:false,
+    colorName:String,
+    colorCode:String,
+    colorFamily:String
+  },
+  images:[{
+    _id:false,
+    imageUrl:{type:String,default:''},
+    imageAltText:{type:String,default:''},
+    id:{
+      type:String,
+      unique:true
+    }
+  }],
+  documents:[{
+    _id:false,
+    documentName:{type:String,default:''},
+    documentLink:{type:String,default:''},
+    id:{
+      type:String,
+      unique:true
+    }
+  
+  }],
+  application:[{
+    type:String,
+    default:''
+  }]
+  ,
+  isActive:{
+    type:Boolean,
+    default:true
+  }
+  }],
+  id:{
+    type:String,
+    unique:true
+  }
+
+
+
+},{timestamps:true},{strict:false});
+
+
+module.exports = mongoose.model('Product',productSchema);

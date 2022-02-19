@@ -1,0 +1,106 @@
+{
+    "message": "product detail",
+    "productData":{
+    "products": [{
+        "primaryCategory": {
+            "categoryName": "Wallpapers",
+            "categoryId": "618ebbad03aaf981baa641f5"
+        },
+        "title": "Woodwork Lace White-27714-2 - Wallpaper from Stenna",
+        "productUrl": "woodwork-lace-white-27714-2-stenna-wallpapers",
+        "images": [
+            {
+                "imageUrl": "https://dexteriostaticimages.s3.ap-south-1.amazonaws.com/V000170_Stenna/Wallpapers/Woodwork Lace White-27714-2/Samples/27714-2_2048x2048.jpg",
+                "imageAltText": "Woodwork Lace White-27714-2 Wallpapers Plain,Texture Pattern White | Image 1",
+                "id": "6270f56ea577b76ac256b1ecd9baed4868990c8294fc7d3a0a8404b9fb1a2246"
+            }
+        ],
+        "vendorId": {
+            "id": "f76645542d17db2de22739edec469b841a824d2019d044cb1b492279fa976dab",
+            "name": "Stenna",
+            "categories": [
+                {
+                    "categoryId": "618ebbad03aaf981baa641f5",
+                    "categoryName": "Wallpapers",
+                    "_id": "61dd477533420a4090ab7d50"
+                }
+            ],
+            "email": "stenna@dexterio.in",
+            "images": [
+                {
+                    "imageUrl": "https://dexteriostaticimages.s3.ap-south-1.amazonaws.com/V000170_Stenna/Wallpapers/Adamo Beige-HE0202/Samples/HE0202_2048x2048.jpg",
+                    "imageAltText": "Stenna",
+                    "id": "45f0f3d9e97a7724080fe0139222245dfc761c9b15381c921dc6d7f5f16a6b67",
+                    "_id": "62111fbf9b3fd7e0ae43825e"
+                },
+                {
+                    "imageUrl": "https://dexteriostaticimages.s3.ap-south-1.amazonaws.com/V000170_Stenna/Wallpapers/Adamo Beige-HE0202/Samples/HE0202_2048x2048.jpg",
+                    "imageAltText": "Stenna",
+                    "id": "45f0f3d9e97a7724080fe0139222245dfc761c9b15381c921dc6d7f5f16a6b67",
+                    "_id": "62111fbf9b3fd7e0ae43825f"
+                }
+            ]
+        },
+        "variants": [
+            {
+                "id": "4ec3268b05326d4c22e40dcb038384548d5566de70afeb0f3de274800424125f",
+                "category": {
+                    "categoryId": "618ebbad03aaf981baa641f5",
+                    "categoryName": "Wallpapers"
+                },
+                "vendorId": "f76645542d17db2de22739edec469b841a824d2019d044cb1b492279fa976dab",
+                "vendorName": "Stenna",
+                "color": {
+                    "colorName": "White",
+                    "colorCode": "#FFFFFF",
+                    "colorFamily": "White"
+                },
+                "images": [
+                    {
+                        "imageUrl": "https://dexteriostaticimages.s3.ap-south-1.amazonaws.com/V000170_Stenna/Wallpapers/Woodwork Lace White-27714-2/Samples/27714-2_2048x2048.jpg",
+                        "imageAltText": "Woodwork Lace White-27714-2 Wallpapers Plain,Texture Pattern White | Image 1"
+                    },
+                    {
+                        "imageUrl": "https://dexteriostaticimages.s3.ap-south-1.amazonaws.com/V000170_Stenna/Wallpapers/Woodwork Lace White-27714-2/Samples/27714-2_9446fdbc-0c31-436a-ba9d-a30fcff86ad4_2048x2048.jpg",
+                        "imageAltText": "Woodwork Lace White-27714-2 Wallpapers Plain,Texture Pattern White | Image 2"
+                    }
+                ],
+                "documents": [
+                    {
+                        "documentName": null,
+                        "documentLink": null,
+                        "id": "8b7d023963164885990eca89c8bc5c53e8b1537ed9ee2ace31387a80805f6ef9"
+                    },
+                    {
+                        "documentName": null,
+                        "documentLink": null,
+                        "id": "4c0bb259b9742fcbab1143574cacea1f3c12be035b0830b7559848caba7788b9"
+                    },
+                    {
+                        "documentName": null,
+                        "documentLink": null,
+                        "id": "86a77bc9ea1a07903684fc1224fda855e9e960128afbb6578e2d5c9a647d351b"
+                    },
+                    {
+                        "documentName": null,
+                        "documentLink": null,
+                        "id": "19f2228477579afaafb2c47f9cad88e8b10163562e582cc3b690a73cf22f71ee"
+                    }
+                ],
+                "application": [
+                    "Bedroom",
+                    "Living Room",
+                    "Bar"
+                ],
+                "isActive": false
+            }
+        ],
+        "id": "951db9252d1be3c3dc2979a81bd804203d91ad0ba7d3d0873365654fe89726ed",
+        "_id": "62111fbf9b3fd7e0ae43825c",
+        "updatedAt": "2022-01-19T22:54:05.963Z",
+        "createdAt": "2022-01-19T22:54:05.963Z",
+        "__v": 0
+    }]
+    }
+    
+}
